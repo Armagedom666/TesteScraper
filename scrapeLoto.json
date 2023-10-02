@@ -1,0 +1,70 @@
+{
+  "id": "f4378a9e-f606-41f0-b28a-8dea6d8c5318",
+  "version": "2.0",
+  "name": "scrapeLoto",
+  "url": "https://asloterias.com.br/resultados-da-lotofacil-2023",
+  "tests": [{
+    "id": "385566a4-7c58-4850-975f-486ac9611132",
+    "name": "baixa Arquivo",
+    "commands": [{
+      "id": "4366e53a-4d37-438a-bc8a-9b68dd82cddd",
+      "comment": "",
+      "command": "open",
+      "target": "https://asloterias.com.br/resultados-da-lotofacil-2023",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44c88205-d6f5-439f-bfbd-35a5eb429919",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bc65355-072f-49d5-a4a7-3d3bde61fcfa",
+      "comment": "",
+      "command": "click",
+      "target": "https://asloterias.com.br/resultados-da-lotofacil-2021",
+      "targets": [
+        ["linkText=2021", "linkText"],
+        ["css=.col-3:nth-child(1) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2021')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'resultados-da-lotofacil-2021')]", "xpath:href"],
+        ["xpath=//div[6]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22b87f9b-4086-4dba-9b55-294b74f970c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,412.0384521484375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb979f04-8ad9-46c5-94e6-88c7f9a903e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download Todos resultados da Lotofacil 2021 em Excel por ordem crescente",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e95dc4f5-2fe3-42cc-955c-6bd344ee7a4e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7986ae04-4aa3-4111-9d6b-9d3a4f2383fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["385566a4-7c58-4850-975f-486ac9611132"]
+  }],
+  "urls": ["https://asloterias.com.br/resultados-da-lotofacil-2023"],
+  "plugins": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "5eed4dab-925f-48f3-ae52-ef00a65d807f",
+  "version": "2.0",
+  "name": "Scraper",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "7fb7320b-e248-4cac-aef5-adc2f1976a4f",
+    "name": "Untitled",
+    "commands": [{
+      "id": "3305a497-4ca2-4aab-9d4f-283f1b40aea1",
+      "comment": "",
+      "command": "open",
+      "target": "/watch?v=pZ6EqsHskM8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac9616af-2844-4cf8-b780-3b0462f8b9bb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d16c6f62-63c8-406d-b5d5-2b7dc4d319c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c937a71-68f9-46b8-b7a5-e0c0cf7d9771",
+      "comment": "",
+      "command": "click",
+      "target": "id=ad-text:6",
+      "targets": [
+        ["id=ad-text:6", "id"],
+        ["css=#ad-text\\3A 6", "css:finder"],
+        ["xpath=//div[@id='ad-text:6']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-button:5']/span/button/div", "xpath:idRelative"],
+        ["xpath=//span/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b8bf72-7495-4707-bacc-09b397208a38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26d45c05-4c2d-4e4f-9d42-4521526d3b34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-topbar-menu-button-renderer .yt-spec-icon-shape > div",
+      "targets": [
+        ["css=.ytd-topbar-menu-button-renderer .yt-spec-icon-shape > div", "css:finder"],
+        ["xpath=(//button[@id='button']/yt-icon/yt-icon-shape/icon-shape/div)[5]", "xpath:idRelative"],
+        ["xpath=//a/yt-icon-button/button/yt-icon/yt-icon-shape/icon-shape/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd7cf4e-233c-414a-a211-f563db0e7f07",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-topbar-menu-button-renderer .yt-spec-icon-shape > div",
+      "targets": [
+        ["css=.ytd-topbar-menu-button-renderer .yt-spec-icon-shape > div", "css:finder"],
+        ["xpath=(//button[@id='button']/yt-icon/yt-icon-shape/icon-shape/div)[5]", "xpath:idRelative"],
+        ["xpath=//a/yt-icon-button/button/yt-icon/yt-icon-shape/icon-shape/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eb560e17-3f08-4936-ab59-98a599521964",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7fb7320b-e248-4cac-aef5-adc2f1976a4f"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}

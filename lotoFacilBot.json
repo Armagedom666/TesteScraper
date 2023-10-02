@@ -1,0 +1,146 @@
+{
+  "id": "89359fb9-f413-4f94-81b3-a1cff0b464ca",
+  "version": "2.0",
+  "name": "lotoFacilBot",
+  "url": "https://asloterias.com.br",
+  "tests": [{
+    "id": "687b22c2-8cac-41ff-ac7d-e1cd398efb74",
+    "name": "baixador",
+    "commands": [{
+      "id": "e8c42c72-4f45-4332-9d48-78dffc0dcbcb",
+      "comment": "",
+      "command": "open",
+      "target": "/resultados-da-lotofacil-2023",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ade10514-2003-4826-a5b0-de0e1f620e77",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7f609aa-7b65-4a5a-bd00-ef9654924f91",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=2021",
+      "targets": [
+        ["linkText=2021", "linkText"],
+        ["css=.col-3:nth-child(1) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2021')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'resultados-da-lotofacil-2021')]", "xpath:href"],
+        ["xpath=//div[6]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae4bd1c3-41f3-496d-832b-c936bd9ba617",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2021",
+      "targets": [
+        ["linkText=2021", "linkText"],
+        ["css=.col-3:nth-child(1) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2021')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'resultados-da-lotofacil-2021')]", "xpath:href"],
+        ["xpath=//div[6]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e6fd162-293e-4b72-accf-40f9662932cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=2021",
+      "targets": [
+        ["linkText=2021", "linkText"],
+        ["css=.col-3:nth-child(1) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2021')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'resultados-da-lotofacil-2021')]", "xpath:href"],
+        ["xpath=//div[6]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4d7acd1-3373-4c0b-99b4-3c974de8940d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=5",
+      "targets": [
+        ["index=5"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c6a7840-9caf-4700-aa88-df292190f9c1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "c711c908-1aec-4b2b-be67-89f0a872561e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ns-gdm9o-e-21",
+      "targets": [
+        ["css=.ns-gdm9o-e-21", "css:finder"],
+        ["xpath=//div[@id='dismiss-button']/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fechar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c05600f-90bf-4fde-90e6-7f022f050f71",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "9926bad2-9d4e-48dd-bbef-e1c553e0b6bf",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "38162330-8e64-432c-b36e-554ff7c36fdf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,558.3275146484375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8b9143e-1a55-493d-8bf6-fbfd03f0bdad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download Todos resultados da Lotofacil 2021 em Excel por ordem crescente",
+      "targets": [
+        ["linkText=Download Todos resultados da Lotofacil 2021 em Excel por ordem crescente", "linkText"],
+        ["css=.text-center:nth-child(15) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download Todos resultados da Lotofacil 2021 em Excel por ordem crescente')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:document.frm57c.submit()')]", "xpath:href"],
+        ["xpath=//div[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download Todos resultados da Lotofacil 2021 em Excel por ordem crescente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "131ea805-8d17-4c6c-93af-0927e640e669",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["687b22c2-8cac-41ff-ac7d-e1cd398efb74"]
+  }],
+  "urls": ["https://asloterias.com.br/"],
+  "plugins": []
+}
